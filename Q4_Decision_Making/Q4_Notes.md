@@ -18,7 +18,7 @@ Both the else-if ladder and switch implementation produce the correct grades.
 
 ## Missing Break Experiment
 
-If a break or return is removed from a switch case, execution falls through into subsequent cases. This can produce an incorrect grade.
+If a break statement is removed from a switch case, execution falls through into subsequent cases. This can produce an incorrect grade.
 
 ## Why Switch Cannot Directly Test Ranges
 
@@ -38,9 +38,9 @@ char grades[11] = {'F','F','F','F','F','D','C','B','A','S','S'};
 
 The grade can be accessed using grades[marks / 10], after validating marks.
 
-Lookup table: O(1) time and O(11) space.
-Switch: O(1) time and O(1) extra space.
-Else-if ladder: Up to O(k) comparisons for k conditions.
+- Lookup table: O(1) time and O(11) space.
+- Switch: O(1) time and O(1) extra space.
+- Else-if ladder: Up to O(k) comparisons for k conditions.
 
 ## Conclusion
 
