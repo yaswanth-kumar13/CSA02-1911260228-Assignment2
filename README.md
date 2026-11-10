@@ -1,4 +1,3 @@
-
 # CSA0221 - C Programming Assignment 2 (CO2)
 
 ## Student Details
@@ -9,23 +8,35 @@
 
 ## Compiler Information
 - Compiler: GCC
-- Version: To be updated after verification
+- Version: GCC 16.2.0 (MSYS2)
 - Compile command: gcc filename.c -o filename -Wall -Wextra
 
-## Questions
+## Questions and Completion Status
 
 | Question | Topic | Status |
 |---|---|---|
-| Q1 | Precedence and Associativity | Pending |
-| Q2 | Short-Circuit Evaluation | Pending |
-| Q3 | Bitwise Operators | Pending |
-| Q4 | Decision-Making Statements | Pending |
-| Q5 | Looping and Prime Checking | Pending |
-| Q6 | Loan Repayment | Pending |
-| Q7 | Design Challenge | Pending |
+| Q1 | Precedence and Associativity | Completed |
+| Q2 | Short-Circuit Evaluation | Completed |
+| Q3 | Bitwise Operators | Completed |
+| Q4 | Decision-Making Statements | Completed |
+| Q5 | Looping and Prime Checking | Completed |
+| Q6 | Loan Repayment | Completed |
+| Q7 | Design Challenge | Completed |
 
 ## Execution Instructions
-Each question has a separate folder containing its source code, output screenshots and supporting analysis.
+
+1. Open the required question folder.
+2. Open the terminal in that folder.
+3. Compile the C program using:
+
+   gcc filename.c -o filename -Wall -Wextra
+
+4. Execute the program using:
+
+   .\filename.exe
+
+5. Refer to the corresponding analysis file and output screenshots for experimental results.
 
 ## GitHub Repository
+
 https://github.com/yaswanth-kumar13/CSA02-1911260228-Assignment2
